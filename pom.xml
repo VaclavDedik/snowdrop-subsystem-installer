@@ -447,7 +447,7 @@
                                     <target name="snowdrop-for-eap6">
                                         <echo>Installing EAP6 Snowdrop subsystem for Spring 3.2</echo>
                                         <copy todir="${output.dir}/modules">
-                                            <fileset dir="${wfk.snowdrop.home}/module-spring-3">
+                                            <fileset dir="${wfk.snowdrop.home}/module-spring-3.2">
                                                 <include name="**/*" />
                                             </fileset>
                                             <fileset dir="${wfk.snowdrop.home}/module-deployer">
